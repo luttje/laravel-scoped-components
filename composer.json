@@ -1,0 +1,30 @@
+{
+    "name": "luttje/scoped-components",
+    "description": "Scope CSS and JS in Laravel through Shadow DOM, using the blade directives @scope and @endscope",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^9.17"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Luttje\\ScopedComponents\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luttje",
+            "email": "2738114+luttje@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Luttje\\ScopedComponents\\ServiceProvider"
+            ]
+        }
+    }
+}
