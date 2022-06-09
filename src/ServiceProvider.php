@@ -25,10 +25,10 @@ class ServiceProvider extends BaseServiceProvider
     public function boot()
     {
         Blade::directive('scope', function () {
-            return \Luttje\ScopedComponents\Scope::getStartScope();;
+            return \Luttje\ScopedComponents\Scope::getStartScope();
         });
         Blade::directive('endscope', function () {
-            return \Luttje\ScopedComponents\Scope::getEndScope();;
+            return \Luttje\ScopedComponents\Scope::getEndScope();
         });
     }
 }
